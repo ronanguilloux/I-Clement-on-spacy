@@ -8,6 +8,10 @@ Testing odyCy, spaCy and displacy the firts Letter of Clement with NLP
 
 This notebook is simply an initial exploration of Hugging Face transformers - specifically NLP models, trained on Greek litterature, and applied to a piece of I Clement, in order to explore what's available.
 
+## Where's the output and found results
+
+Here: https://github.com/ronanguilloux/I-Clement-on-spacy/blob/main/Clement-I.ipynb
+
 ## Text Context
 
 For this analysis, I used the [original Greek text of Clement I](https://ccel.org/ccel/lake/fathers2/fathers2.ii.i.html).
