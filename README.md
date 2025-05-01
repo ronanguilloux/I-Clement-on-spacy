@@ -1,21 +1,26 @@
-# Patristics on Natural Language Processing - Exploring I Clement with spaCy
+# Patristics on Natural Language Processing - Exploring *I Clement* with spaCy and odyCy
 
-Testing odyCy, spaCy and displacy the firts Letter of Clement with NLP
-
-[OdyCy](https://centre-for-humanities-computing.github.io/odyCy/) is a Natural Language Processing library in python for Ancient Greek, capable of part-of-speech tagging, morphological analysis, dependency parsing, lemmatization and more.  It is based on the popular [spaCy](https://spacy.io/) framework, which makes odyCy easy to use, scalable, reliable and modular.
 
 ## Overview and Purpose
 
-This notebook is simply an initial exploration of Hugging Face transformers - specifically NLP models, trained on Greek litterature, and applied to a piece of I Clement, in order to explore what's available.
+This notebook is an exploration of how to apply Natural Language Processing (NLP) pipelines in order to analyse the Ancient-Greek text of the First Epistle of Clement (Κλήμεντος πρὸς Κορινθίους), and find what's hard to find.
 
-## Where's the output and found results
+To orchestrate NLP pipelines to Ancient-Greek texts, we use [OdyCy](https://centre-for-humanities-computing.github.io/odyCy/), a Natural Language Processing library in Python for Ancient Greek, capable of part-of-speech tagging, morphological analysis, dependency parsing, lemmatization, and more.  It is based on the popular [spaCy](https://spacy.io/) framework, which makes odyCy easy to use, scalable, reliable, and modular.
 
-Here: https://github.com/ronanguilloux/I-Clement-on-spacy/blob/main/Clement-I.ipynb
+## Show me what you've found
 
-## Text Context
+=> [1 Clement counts 150 unique Ancient-Greek verbs.](https://github.com/ronanguilloux/I-Clement-on-spacy/blob/main/Clement-Verbs.ipynb)
 
-For this analysis, I used the [original Greek text of Clement I](https://ccel.org/ccel/lake/fathers2/fathers2.ii.i.html).
+## The Material in use
+
+For this analysis, we used the [original Greek text of Clement I](https://ccel.org/ccel/lake/fathers2/fathers2.ii.i.html).
 The `data` folder contains an excerpt and the full version as well.  
+
+## The NLP pipelines available
+
+Just like any other spaCy pipeline, odyCy is a modular set of components run in succession. The different components add different attributes to tokens or spans, which will constitute the output document object.
+
+[Learn more about odyCy/spaCY pipeline architecture here](https://centre-for-humanities-computing.github.io/odyCy/architecture.html)
 
 ## How to get started
 
@@ -32,9 +37,13 @@ pip install -r requirements.txt
 jupyter notebook
 ````
 
+On macOS it'll open your browser and serve Jupyter locally on your machine, at http://localhost:8888.
+
 ## Notebook Usage
 
-Jupyter Notebooks were used for initial exploration and investigation
+JupyterLab is the latest web-based interactive development environment for notebooks, code, and data. Its flexible interface allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning.
+
+[Learn more about Jupyter here](https://jupyter.org/)
 
 ## Example Output
 
