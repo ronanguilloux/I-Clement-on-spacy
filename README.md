@@ -9,7 +9,7 @@ To orchestrate NLP pipelines to Ancient-Greek texts, we use [OdyCy](https://cent
 
 ## Show me what you've found
 
-=> [1 Clement counts 150 unique Ancient-Greek verbs.](https://github.com/ronanguilloux/I-Clement-on-spacy/blob/main/Clement-Verbs.ipynb)
+=> [1 Clement counts 150 unique Ancient-Greek verbs.](https://github.com/ronanguilloux/I-Clement-on-spacy/blob/main/1-Clement-Verbs.ipynb)
 
 ## The Material in use
 
