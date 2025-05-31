@@ -1,3 +1,4 @@
 jupyter
 spacy
 bertopic
+macula
